@@ -1,0 +1,17 @@
+author: billofbong
+database: false
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: org.awesomecraft.plugins.orphanage.Orphanage
+name: Orphanage
+startup: postworld
+url: http://awesomecraft.org/
+version: '1.0'
+commands:
+  adopt:
+    description: Adopt a player!
+  abandon:
+    description: Abandon an orphan.
+  orphanage:
+    description: Teleport to an orphanage.
+  setorphanage:
+    description: Sets an orphanage's location.
